@@ -1,0 +1,222 @@
+                    /*
+Project Name: Relaxr Blog
+Client: General Assembly
+Author: Tanya Rustin
+Developer @GA in Atlanta
+*/
+                    
+                    body {
+                        font-family: 'Handlee', cursive;
+                    }
+                    
+                    #container {
+                        background-color: #001D4A;
+                    }
+                    
+                    header {
+                        color: white;
+                    }
+                    
+                    h1 {
+                        margin-top: 0px;
+                        font-size: 48px;
+                        padding-left: 20px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                    
+                    nav {}
+                    
+                    nav ul {
+                        text-align: right;
+                        margin-right: 40px;
+                        margin-bottom: 0px;
+                        padding-bottom: 15px;
+                    }
+                    
+                    nav li {
+                        list-style: none;
+                        display: inline-block;
+                        padding-right: 15px;
+                        font-size: 24px;
+                    }
+                    
+                    nav a:link {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    nav a:visited {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    nav a:hover {
+                        text-decoration: underline;
+                        color: white;
+                    }
+                    
+                    nav a:active {
+                        text-decoration: underline;
+                        color: white;
+                    }
+                    
+                    .posts {
+                        padding-bottom: 75px;
+                        background: #F5F5F5;
+                        margin: 0 20px;
+                    }
+                    
+                    .posts a:link {
+                        color: #033048;
+                        text-decoration: none;
+                    }
+                    
+                    .posts a:hover {
+                        text-decoration: underline;
+                    }
+                    
+                    .posts a:visited {
+                        color: #033048;
+                        text-decoration: none;
+                    }
+                    
+                    .posts p {
+                        padding: 2%;
+                        text-align: justify;
+                    }
+                    
+                    article {
+                        margin-left: 10%;
+                        margin-right: 10%;
+                        border-bottom: 2px;
+                        border-bottom-style: solid;
+                        border-color: #033048;
+                    }
+                    
+                    article h1 {
+                        padding: 30px 15px;
+                        text-align: center;
+                        font-size: 26px;
+                        font-weight: 600;
+                        color: #033048;
+                    }
+                    
+                    article img {
+                        display: block;
+                        margin: 0 auto;
+                        padding-top: 10px;
+                        width: 50%;
+                        height: 40vh;
+                    }
+                    
+                    .about {
+                        padding-top: 15px;
+                    }
+                    
+                    .about p {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                    
+                    .about h3 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-indent: 10px;
+                        padding-top: 5px;
+                    }
+                    
+                    #square {
+                        text-align: center;
+                        background-color: #F5F5F5;
+                        margin: 0px 20px;
+                    }
+                    
+                    #square h2 {
+                        font-family: 'Lobster', cursive;
+                        font-size: 5vw;
+                        color: white;
+                        text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.7);
+                        -ms-text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.7);
+                        position: absolute;
+                        margin: 0;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                    }
+                    
+                    .food {
+                        float: left;
+                        background-image: url('salad.jpg');
+                        background-size: cover;
+                        width: 50%;
+                        height: 33vh;
+                        opacity: 0.7;
+                        position: relative;
+                    }
+                    
+                    .food:hover {
+                        opacity: 1;
+                    }
+                    
+                    .music {
+                        float: left;
+                        background-image: url('berg.jpg');
+                        background-size: cover;
+                        width: 50%;
+                        height: 33vh;
+                        opacity: 0.7;
+                        position: relative;
+                    }
+                    
+                    .music:hover {
+                        opacity: 1;
+                    }
+                    
+                    .art {
+                        clear: both;
+                        float: left;
+                        background-image: url('art1.jpg');
+                        background-size: cover;
+                        width: 50%;
+                        height: 33vh;
+                        opacity: 0.7;
+                        position: relative;
+                    }
+                    
+                    .art:hover {
+                        opacity: 1;
+                    }
+                    
+                    .books {
+                        float: left;
+                        background-image: url('books1.jpg');
+                        background-size: cover;
+                        width: 50%;
+                        height: 33vh;
+                        opacity: 0.7;
+                        position: relative;
+                    }
+                    
+                    .books:hover {
+                        opacity: 1;
+                    }
+                    
+                    footer {
+                        clear: both;
+                        padding: 20px;
+                    }
+                    
+                    .social {
+                        text-align: center;
+                    }
+                    
+                    .social img {
+                        padding: 0 5px;
+                        border: none;
+                    }
+                    .social a {
+                    border: none;
+                    text-decoration: none;
+                    }

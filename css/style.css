@@ -1,0 +1,167 @@
+/*
+Tanya Rustin
+General Assembly - FEWD9
+Final Project
+*/
+
+body {
+    font-family: 'Handlee', cursive;
+}
+
+.container {
+    background-color: #001D4A;
+}
+
+header {
+    color: white;
+}
+h1 {
+    margin-top: 0px;
+    text-indent: 30px;
+    margin-bottom: -30px;
+    font-size: 48px;
+}
+
+nav ul {
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 24px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+nav a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.banner {
+    margin: 0px 20px;
+    background: #F5F5F5;
+}
+
+.banner-overlay {
+    opacity: 0.8;
+    text-shadow: 1px 1px 0px rgba(0,0,0,1);
+    -ms-text-shadow: 1px 1px 0px rgba(0,0,0,1);
+    font-size: 36px;
+    text-align: center;
+    margin: 0px 25%;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+#square {
+    text-align: center;
+    background-color: #F5F5F5;
+    margin: 0px 20px;
+}
+
+#square h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 5vw;
+    color: white;
+    text-shadow: 3px 2px 0px rgba(0,0,0,0.7);
+    -ms-text-shadow: 3px 2px 0px rgba(0,0,0,0.7);
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+}
+
+.food {
+    float: left;
+    background-image: url('salad.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 33vh;
+    opacity: 0.7;
+    position: relative;
+}
+
+.food:hover {
+    opacity: 1;
+}
+
+.music {
+    float: left;
+    background-image: url('berg.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 33vh;
+    opacity: 0.7;
+    position: relative;
+}
+
+.music:hover {
+    opacity: 1;
+}
+
+.art {
+    clear: both;
+    float: left;
+    background-image: url('art1.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 33vh;
+    opacity: 0.7;
+    position: relative;
+}
+
+.art:hover {
+    opacity: 1;
+}
+
+.books {
+    float: left;
+    background-image: url('books1.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 33vh;
+    opacity: 0.7;
+    position: relative;
+}
+
+.books:hover {
+    opacity: 1;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+}
+
+.social {
+    text-align: center;
+}
+.social img {
+    padding: 0 5px;
+    border: none;
+}
+.social a {
+border: none;
+text-decoration: none;
+}
